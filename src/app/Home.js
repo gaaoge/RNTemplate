@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, Image, View } from 'react-native';
+import React, { Component } from 'react'
+import { StyleSheet, Text, Image, View } from 'react-native'
 
 export default class Main extends Component {
-
-  render() {
+  render () {
     return (
       <View style={styles.container}>
-        <Image source={require('../../resource/assets/logo.png')} style={styles.logo}/>
+        <Image source={require('../../resource/assets/logo.png')} style={styles.logo} />
         <Text style={styles.title}>Hello React Native!</Text>
       </View>
-    );
+    )
   }
 }
 
@@ -29,4 +28,4 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold'
   }
-});
+})

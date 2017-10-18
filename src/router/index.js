@@ -1,7 +1,7 @@
-import { StackNavigator } from 'react-navigation';
+import { StackNavigator } from 'react-navigation'
 
-import Home from '../app/Home';
+import Home from '../app/Home'
 
 export default StackNavigator({
-  Home: { screen: Home }
-});
+  Home: {screen: Home}
+})
